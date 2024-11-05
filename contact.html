@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>디자인 지평선</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/favicon.png">
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+</head>
+<body>
+  <header>
+    <a href="index.html"><img src="img/symbol.png" alt="symbol"></a>
+    <a href="contact.html">Contact</a>
+  </header>
+
+  <section class="contact">
+    <h3>디자인지평선은 응원을 담아 <br>디자인합니다.</h3>
+    <p>디자인지평선은 분야를 가리지 않습니다.<br>
+        고객의 100% 만족을 위해, 
+        비즈니스의 도약을 위해,<br>
+        같이 성장하길 바라는 마음으로 열심을 다합니다.<br><br>
+    </p>
+    <p class="contact-link"><a href="http://pf.kakao.com/_irqln/chat" target="_blank">카카오톡 채널<i data-feather="message-circle"></i></a> &nbsp;또는&nbsp;<a id="copyMail" href="" >이메일<i class="feader-24" data-feather="mail"></i></a>을 통해 편하게 문의해주세요.</p>
+    <p><br>감사합니다:)</p>
+  </section>
+
+  <footer>
+    <section class="footer-about">
+        <h3>About</h3>
+        <div class="wrap">
+            <div>
+               <h5>Service</h5>
+               <p>Editorial design<br>
+                Web design<br>
+                Presentation/PPT<br>
+                Identity design<br>
+                Graphic design<br>
+                …           <br>
+                etc.</p>
+            </div>
+             <div>
+                <h5>Abilities</h5>
+                <p>Adobe Photoshop / Illustrator<br>
+
+                    Adobe Indesign<br> 
+                    Adobe XD<br>
+                    
+                    Adobe Premeire pro / After Effects<br>
+                    
+                    HTML / CSS / JS</p>
+             </div>
+             <div>
+                <h5>Business Info</h5>
+                <p>디자인지평선<br>
+                    715-36-01357<br>
+                    jipyungsun_@naver.com<br>
+                    대전 유성구 신성남로 77-5 201<br>
+                    대표 백지윤
+                </p>
+             </div>
+        </div>
+       
+      </section>
+      <div class="footer-bottom">
+        <p class="copyright">Copyright 디자인지평선 2024. All rights reserved.</p>
+        <div class="related-url">
+            <a href="https://blog.naver.com/design_jipyungsun" target="_blank">Blog</a>
+            <a href="https://www.behance.net/jiyunbaek1" target="_blank">Behance</a>
+            <a href="http://pf.kakao.com/_irqln/chat" target="_blank">Kakaotalk Channel</a>
+        </div>
+    </div>
+  </footer>
+  <script>
+    feather.replace();
+
+    const textToCopy = document.getElementById('copyMail');
+
+textToCopy.addEventListener('click', () => {
+    const text = "jipyungsun_@naver.com"; // 복사할 텍스트
+    navigator.clipboard.writeText(text) // 클립보드에 복사
+        .then(() => {
+            alert('메일 주소가 복사되었습니다: ' + text); // 복사 성공 알림
+        })
+        .catch(err => {
+            console.error('복사 실패: ', err); // 복사 실패 시 오류 로그
+        });
+});
+  </script>
+    <script src="js/cursor.js"></script>
+</body>
+</html>

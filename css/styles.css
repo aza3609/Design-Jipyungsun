@@ -1,0 +1,123 @@
+@import "reset.css";
+
+@import "main.css";
+@import "contact.css";
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+*{
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+body{
+    padding: 50px 50px 0px 50px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    cursor: none;
+    background-color: white;
+    
+}
+section{
+    padding-bottom: 140px;
+}
+.section-header{
+    width: 100%;
+    border-bottom: 1px black solid;
+}
+
+
+.custom-cursor {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; /* 원 모양 */
+    background-color: white;
+    pointer-events: none; /* 커서가 다른 요소에 영향을 미치지 않도록 */
+    mix-blend-mode: difference; /* 요소와 겹칠 때 색상 반전 */
+    z-index: 1000;
+    transition: width 0.3s ease, height 0.3s ease; /* 크기 변화를 부드럽게 */
+    
+}
+.custom-cursor.large{
+    width: 60px;
+    height: 60px;
+}
+
+h1{
+    font-size: 100px;
+    margin-top: 60px;
+}
+h3{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+h5{
+    font-size: 30px;
+}
+h5 span{
+    font-size: 18px;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.bold{
+    font-weight: 700;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width: 70px;
+}
+header a{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+
+
+
+footer{
+    width: 100vw;
+    position: relative;
+    left: -50px;
+    background-color: black;
+    color: white;
+    padding: 50px 50px 50px 50px;
+    box-sizing: border-box;
+    line-height: 1.8;
+}
+.footer-about .wrap{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 30px;
+}
+.footer-about h5{
+    margin-bottom: 20px;
+}
+footer .copyright {
+    font-size: 16px;
+    margin-top: 70px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-logo img{
+    width: 30vw;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.footer-bottom a{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 18px;
+}
