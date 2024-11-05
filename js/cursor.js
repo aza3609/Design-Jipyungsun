@@ -8,11 +8,12 @@ document.addEventListener('mousemove', (e) => {
 });
 
 links.forEach(link => {
-    link.addEventListener('mouseover', () => {
+    link.addEventListener('mouseenter', () => {
         cursor.classList.add('large'); // 링크에 마우스 오버 시 클래스 추가
+        console("large in");
     });
 
-    link.addEventListener('mouseout', () => {
+    link.addEventListener('mouseleave', () => {
         cursor.classList.remove('large'); // 링크에서 마우스가 나가면 클래스 제거
     });
 });
