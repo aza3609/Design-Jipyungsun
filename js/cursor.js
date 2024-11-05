@@ -10,7 +10,6 @@ document.addEventListener('mousemove', (e) => {
 links.forEach(link => {
     link.addEventListener('mouseenter', () => {
         cursor.classList.add('large'); // 링크에 마우스 오버 시 클래스 추가
-        console("large in");
     });
 
     link.addEventListener('mouseleave', () => {
