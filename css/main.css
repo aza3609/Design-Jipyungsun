@@ -1,0 +1,47 @@
+
+.about p{
+width: 48vw;
+word-break: keep-all;
+}
+
+
+
+.project .wrap{
+    width: calc(100vw - 10px);
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap; 
+    position: relative;
+    left: -50px;
+    cursor: grab;
+}
+.project a{
+     margin-right: 20px;
+}
+.project a:first-child{
+    margin-left: 50px;
+}
+.project a:last-child{
+    margin-right: 50px;
+}
+.project a img{
+    width: 35vw;
+    height: 24vw;
+    object-fit: cover;
+}
+
+.explore-row{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    border-top: 1px black solid;
+    padding: 24px 0px;
+}
+.explore-row img{
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+
+}
+
