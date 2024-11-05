@@ -34,9 +34,21 @@ section{
     pointer-events: none; /* 커서가 다른 요소에 영향을 미치지 않도록 */
     mix-blend-mode: difference; /* 요소와 겹칠 때 색상 반전 */
     z-index: 1000;
-    transition: width 0.3s ease, height 0.3s ease; /* 크기 변화를 부드럽게 */
-    
+    transition: width 0.3s ease, height 0.3s ease; /* 크기 변화를 부드럽게 */ 
 }
+::-moz-selection {
+    color: #fff;
+    background: black;
+  }
+  
+  ::selection {
+    color: #fff;
+    background: black;
+  }
+  [출처] 마우스 텍스트 드래그 선택 영역 색상 변경 CSS ::selection Selector|작성자 기니
+  
+  
+
 .custom-cursor.large{
     width: 60px;
     height: 60px;
