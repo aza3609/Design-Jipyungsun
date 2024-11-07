@@ -45,3 +45,45 @@ word-break: keep-all;
 
 }
 
+
+
+
+
+@media screen and (max-width: 480px){
+.about p{
+    width: 100%;
+    word-break: keep-all;
+    }
+
+    .project .wrap{
+        width: calc(100vw - 10px);
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap; 
+        position: relative;
+        left: -20px;
+    }
+    .project a img{
+        width: 70vw;
+        height: 45vw;
+    }
+    .project a{
+        margin-right: 16px;
+   }
+   .project a:first-child{
+    margin-left: 20px;
+}
+.project a:last-child{
+    margin-right: 20px;
+}
+
+   .explore-row{
+    grid-template-columns: 1fr;
+    column-gap: 0px;
+    row-gap: 20px;
+}
+.explore-row img{
+    height: 54vw;
+}
+
+}
