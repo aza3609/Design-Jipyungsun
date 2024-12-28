@@ -5,14 +5,14 @@
 .contact-link a{
     font-weight: 700;
     color: black;
-    font-size: 24px;
+    font-size: 20px;
     text-wrap: nowrap;
     display: flex;
     align-items: center;
 }
 .contact-link a svg{
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
 }
 .contact-link a:hover{
     opacity: 0.7;
@@ -25,9 +25,6 @@
 
 
 @media screen and (max-width: 480px){
-    .contact-link a{
-        font-size: 20px;
-    }
     .contact-link a svg{
         width: 24px;
         height: 24px;
