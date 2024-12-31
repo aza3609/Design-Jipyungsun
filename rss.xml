@@ -4,10 +4,10 @@
     <title>디자인 지평선</title>
     <link>https://www.jipyungsun.com</link>
     <description>디자인지평선은 응원을 담아 디자인합니다.</description>
-    <!--<item>
-      <title>Blog Post Title</title>
-      <link>https://jipyungsun.com/blog-post</link>
+    <item>
+      <title>프로젝트</title>
+      <link>https://www.jipyungsun.com</link>
       <pubDate>Mon, 01 Jan 2025 00:00:00 +0000</pubDate>
-    </item>-->
+    </item>
   </channel>
 </rss>
